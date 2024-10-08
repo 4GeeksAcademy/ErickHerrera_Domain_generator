@@ -1,0 +1,27 @@
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+.pronoun {
+  color: #ff5733;
+}
+.adj {
+  color: #33c1ff; /* Color para "action" (azul claro) */
+}
+
+.noun {
+  color: #75ff33; /* Color para "what" (verde claro) */
+}
+.domain {
+  color: #ff33a6; /* Color para "when" (rosa) */
+}
+body {
+    font-family: Arial, sans-serif; 
+    background-color:black; 
+    margin: 0;
+    padding: 20px;
+  }
